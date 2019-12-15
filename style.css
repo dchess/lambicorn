@@ -7,25 +7,27 @@
   user-select: none;
 }
 
+@font-face {
+  font-family: "Comic Neue";
+  src: url("ComicNeue-Bold.woff") format("woff");
+}
+
 .byline {
-  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif
+  font-family: "Comic Neue";
 }
 
 .logo-small {
-  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif
+  font-family: "Comic Neue";
   text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
   font-weight: bold;
 }
 
 .logo {
-  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif
+  font-family: "Comic Neue";
   font-size: 4.5em;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.lead {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-}
 
 .product-image {
   vertical-align: middle;
