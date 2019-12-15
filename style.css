@@ -27,6 +27,15 @@
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+.product-image {
+  vertical-align: middle;
+  border-radius: 15%;
+  margin: auto;
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
 .book-cover {
   background-image: url("Lambi1_v2.jpg");
   background-repeat: no-repeat;
@@ -34,11 +43,17 @@
   background-position: center;
 }
 
-.about-image {
-  background-image: url("Lambi6_v2.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 
 .author-image {
@@ -48,13 +63,6 @@
   border-radius: 50%;
   margin: auto;
   display: block;
-}
-
-.inspiration-image {
-  background-image: url("Lambi9_v2.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
 }
 
 @media (min-width: 768px) {
