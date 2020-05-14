@@ -56,6 +56,12 @@
     min-height: 100%
 }
 
+.fill iframe {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
 .author-image {
   vertical-align: middle;
   width: 300px;
